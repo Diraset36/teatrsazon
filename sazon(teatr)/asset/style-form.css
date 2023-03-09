@@ -165,8 +165,15 @@ transition: opacity .5s;
 .luck{
     width: 800px; position: absolute; left: -18%;
 }
+.contact{
+    display: flow;  position: absolute;
+    top: 0; left: 40%; align-items: center
+}
 @media (max-width: 576px) {
-
+    .contact{
+        display: flow;  position: absolute;
+        top: 0; left: 25%; align-items: center
+    }
     .luck{
         width: 360px; position: relative;left: 0;
     }
