@@ -65,7 +65,7 @@
 
                             <div class="col-md-6">
                                 <span class="form-div">Контакный номер</span>
-                                <input class="input100" type="number" name="phone" placeholder="Телефон">
+                                <input class="input100" type="text" name="phone" placeholder="Телефон">
                             </div>
                             <div class="col-md-6">
                                 <span class="form-div">Полных лет</span>
@@ -99,14 +99,20 @@
                                 <input class="input100" type="text" name="exp" placeholder="Проф. Опыт">
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <span class="form-div">Официальное место работы </span>
                                 <input class="input100" type="text" name="exp" placeholder="Проф. Опыт">
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <span class="form-div">Укажите ваш тембр голоса:</span>
-                                <input class="input100" type="text" name="exp" placeholder="Проф. Опыт">
+                                <select class="input100" name="service_id">
+                                    <option selected>Выбрать тембр</option>
+
+
+                                    <option value="{{$service->id}}">тут тембры через for </option>
+
+                                </select>
                             </div>
                             <div class="col-md-6">
                                 <span class="form-div">Хореографическая подготовка? (да/нет)</span>
@@ -126,10 +132,10 @@
                                 <div class="row">
                                     <div class="col-md-2">
                                         <lable>Да</lable>
-                                        <input style="width: 25px" type="radio" name="exp" value="Да">
+                                        <input style="width: 25px" type="radio"  name="ans" value="Да">
                                     </div>
                                     <div class="col-md-2"><label>Нет</label><input style="width: 25px" type="radio"
-                                                                                   name="exp" value="нет">
+                                                                                   name="ans" value="нет">
                                     </div>
                                 </div>
 
@@ -140,7 +146,7 @@
                             </div>
                             <div class="col-md-12">
                                 <span class="form-div">Загрузите 2-3 фото (портрет и в полный рост) </span>
-                                <input class="input_file" type="file" name="photo">
+                                <input class="input_file" type="file" name="photo" multiple="multiple">
                             </div>
 
                         </div>
