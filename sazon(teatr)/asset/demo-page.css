@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* Базовые стили демо-страницы */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic);
+
+
+
+/* Базовые стили кнопки 3D */
+.button {
+/* Относительное позиционирование */    
+    position: relative;
+/* Устанавливаем внутренние отступы */    
+    padding: 15px 20px;
+/* Убираем подчёркивание и выравниваем текст по центру */     
+    text-decoration: none;
+    text-align: center;
+/* Размер и начертание шрифта */    
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+/* Эффект тени текста */     
+    text-shadow: 1px 2px 2px #30698F;
+/* Внешняя тень кнопки */     
+    box-shadow: 0px 9px 0px #3a7faa, 0px 9px 25px rgba(0, 0, 0, 0.7);
+/* Цвет текста */     
+    color: #efe;
+/* Цвет фона кнопки */     
+    background-color: #458ecc;
+/* Скругляем углы */    
+    border-radius: 8px;
+/* Убираем рамку */    
+    border: none;
+    outline: 0 none;
+    overflow: hidden;
+/* Курсор ввиде руки */ 
+    cursor: pointer; 
+}
+
+/* Стиль кнопки при нажатии */
+
+.button:active {
+  box-shadow: 0px 3px 0px #3a7faa, 0px 3px 6px rgba(0, 0, 0, 0.9);
+  top: 6px;
+}
+/* Стиль выделения букв */
+.submit {
+/* Трансформируем буквы в заглавные и меням цвет */
+text-transform: uppercase;
+color: #efd959;
+}
+.down{
+    margin:55px auto;
+    text-align: center;
+}

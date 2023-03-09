@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'Macherie';
+	src: url('Macherie-SemiBold.woff2') format('woff2') url('Macherie-SemiBold.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}

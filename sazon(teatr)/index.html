@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модалька</title>
+
+
+    <link href="asset/css/custom.bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="asset/css/style.css" media="all" rel="stylesheet" type="text/css">
+
+    <link href="asset/style-form.css" rel="stylesheet">
+    <link href="asset/main.css" rel="stylesheet">
+
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+</head>
+<body class="bodyclass">
+
+
+<div class="titleOT container">
+
+    <div style="margin-top: -300px" class="introduction-1">
+        <!--  <h1 style="	font-family: Macherie, sans-serif;font-size: 42pt">
+              МЮЗИКЛ
+          </h1>-->
+        <img style="position: absolute; right: -60%" src="asset/img/2.PNG" width="800px">
+    </div>
+
+</div>
+
+
+<nav id="home-navigation">
+    <ul>
+        <li>
+            <a href="#form1" style="	font-family: Macherie, sans-serif;"
+               class="button nav-button navscroll">записаться</a>
+        </li>
+
+    </ul>
+</nav><!-- home navigation end -->
+
+
+<!-- Модальная форма -->
+<a href="#x" class="overlay" id="form1"></a>
+<form style="position: absolute; top: 1%;" class="modal">
+    <div class="limiter">
+        <div class="container-login100">
+            <div style="background: none" class="wrap-login100">
+
+
+                <form class="login100-form validate-form" method="post">
+
+                    <span style="color: white" class="login100-form-title">
+						Анкета участника
+
+					</span>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6"><span class="form-div">Ф.И.О.</span>
+                                <input class="input100" type="text" name="name" placeholder="Имя"></div>
+
+
+                            <div class="col-md-6">
+                                <span class="form-div">Контакный номер</span>
+                                <input class="input100" type="number" name="phone" placeholder="Телефон">
+                            </div>
+                            <div class="col-md-6">
+                                <span class="form-div">Полных лет</span>
+                                <input class="input100" type="text" name="age" placeholder="Возраст">
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <span class="form-div">E-mail</span>
+                                <input class="input100" type="email" name="email" placeholder="E-mail">
+                            </div>
+                            <div class="col-md-6">
+                                <span class="form-div">Дата Рождения</span>
+                                <input class="input100" type="date" name="date" placeholder="Дата рождения">
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <span class="form-div">Образование</span>
+                                <input class="input100" type="text" name="educ" placeholder="Образование">
+                            </div>
+
+                            <div class="col-md-6">
+                                <span class="form-div">Проф. опыт(Последние 4-5 проектов)</span>
+                                <input class="input100" type="text" name="exp" placeholder="Проф. Опыт">
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <span class="form-div">На какую роль претендуете</span>
+                                <input class="input100" type="text" name="exp" placeholder="Проф. Опыт">
+                            </div>
+
+                            <div class="col-md-6">
+                                <span class="form-div">Официальное место работы </span>
+                                <input class="input100" type="text" name="exp" placeholder="Проф. Опыт">
+                            </div>
+
+                            <div class="col-md-6">
+                                <span class="form-div">Укажите ваш тембр голоса:</span>
+                                <input class="input100" type="text" name="exp" placeholder="Проф. Опыт">
+                            </div>
+                            <div class="col-md-6">
+                                <span class="form-div">Хореографическая подготовка? (да/нет)</span>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <lable>Да</lable>
+                                        <input style="width: 25px" type="radio" name="exp" value="Да">
+                                    </div>
+                                    <div class="col-md-2"><label>Нет</label><input style="width: 25px" type="radio"
+                                                                                   name="exp" value="нет">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="form-div">  Готовы ли работать в ансамбле? (да/нет)</span>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <lable>Да</lable>
+                                        <input style="width: 25px" type="radio" name="exp" value="Да">
+                                    </div>
+                                    <div class="col-md-2"><label>Нет</label><input style="width: 25px" type="radio"
+                                                                                   name="exp" value="нет">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12">
+                                <span class="form-div"> Дополнительная информация</span>
+                                <textarea class="input100" name="exp" style="min-height: 100px"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <span class="form-div">Загрузите 2-3 фото (портрет и в полный рост) </span>
+                                <input class="input_file" type="file" name="photo">
+                            </div>
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+
+
+                            <div class="container-login100-form-btn">
+                                <nav style="margin-top: -20px">
+                                    <ul>
+                                        <li>
+
+                                            <a href="time1.html" type="submit"
+                                               class="btn-form button nav-button navscroll">20 марта</a>
+
+                                            <a href="time2.html" type="submit"
+                                               class="btn-form button nav-button navscroll">21 марта</a>
+
+                                        </li>
+                                    </ul>
+                                </nav>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <script>
+            $('.js-tilt').tilt({
+                scale: 1.1
+            })
+        </script>
+
+        <!-- конец блока  формы-->
+
+    </div>
+</form>
+<div id="zatemnenie">
+    <div id="okno">
+        Отправлено<br>
+        <a href="#" class="close">X</a>
+    </div>
+</div>
+</body>
+</html>
